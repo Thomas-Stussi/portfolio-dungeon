@@ -1,0 +1,12 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _phaser = require('phaser');
+var _phaserDefault = _parcelHelpers.interopDefault(_phaser);
+class HelloWorldScene extends _phaserDefault.default.Scene {
+  constructor() {
+    super('portfolio-dungeon');
+  }
+  preload() {}
+  create() {}
+}
+exports.default = HelloWorldScene;
